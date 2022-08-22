@@ -1,0 +1,36 @@
+<style>
+
+      .button {
+        background-color: #008CBA; /* Blue */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .button2 {
+        background-color: #DBF1FA;
+        color: #008CBA;
+        border: 2px solid #008CBA;
+    }
+
+    .button2:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+</style>
+
+
+ <div>
+    <a style="text-decoration: none;" href="{{ .Get "href" }}" class="button button2">{{ .Get "alt" }}</a>
+</div>
+
+
+  <br>
